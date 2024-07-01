@@ -11,7 +11,8 @@
 
 void TpcMap::setMapNames(const std::string &r1, const std::string &r2, const std::string &r3)
 {
-  test=invalid;
+  unsigned int test;
+  test = -1;
   
   const char *calibrationroot = getenv("CALIBRATIONROOT");
   std::string full_path;
