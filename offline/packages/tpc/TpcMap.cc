@@ -1,6 +1,5 @@
 #include "TpcMap.h"
 
-A test
 
 #include <cmath>
 #include <cstdlib>
@@ -12,6 +11,8 @@ A test
 
 void TpcMap::setMapNames(const std::string &r1, const std::string &r2, const std::string &r3)
 {
+  test=invalid;
+  
   const char *calibrationroot = getenv("CALIBRATIONROOT");
   std::string full_path;
   if (calibrationroot)
