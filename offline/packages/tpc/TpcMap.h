@@ -32,6 +32,8 @@ class TpcMap
   };
 
   std::map<unsigned int, struct tpc_map> tmap;
+
+  double induce_an_error;
 };
 
 #endif
